@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/font-awsome.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <title>Course Details</title>
+</head>
+
+<body>
+
+    <div class="main-wrapper">
+
+        <header class="header ">
+            <div class="container">
+                <div class="header-main d-flex justify-content-between align-items-center">
+                    <div class="header-logo">
+                        <a href="home.html"><span>Edu</span>Emp</a>
+                    </div>
+                    <button type="button" class="header-hamburger-btn js-header-menu-toggler">
+                        <span></span>
+                    </button>
+                    <div class="header-backdrop js-header-backdrop"></div>
+                    <nav class="header-menu js-header-menu">
+                        <button type="button" class="header-close-btn js-header-menu-toggler">
+                            <i class="fas fa-times"></i>
+
+                        </button>
+                        <ul class="menu">
+                            <li class="menu-item"><a href="home.html">Home</a></li>
+                            <li class="menu-item menu-item-has-children">
+                                <a href="#" class="js-toggle-sub-menu">Courses <i class="fas fa-chevron-down"></i></a>
+                                <ul class="sub-menu js-sub-menu">
+                                    <li class="sub-menu-item"><a href="courses.html">courses</a></li>
+                                    <li class="sub-menu-item"><a href="course-details.html">course details</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item menu-item-has-children">
+                                <a href="#" class="js-header-menu-toggler">New User <i class="fas fa-chevron-down"></i></a>
+                                <ul class="sub-menu js-sub-menu">
+                                    <li class="sub-menu-item"><a href="log-in.html">Log In</a></li>
+                                    <li class="sub-menu-item"><a href="sign-up.html">Sign Up</a></li>
+
+                                </ul>
+                            </li>
+                            
+                        <li class="menu-item"><a href="contact.html">Contact</a></li>
+                        <li class="menu-item"><a href="about.html">About</a></li>
+                        <li class="menu-item"><a href="review.html">Review</a></li>
+                        <li class="menu-item"><a href="blog.html">Blog</a></li>
+                    </ul>
+                    </nav>
+
+                </div>
+
+            </div>
+
+        </header>
+
+        <div class="breadcrumb-nav">
+            <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb mb-0">
+                        <li class="breadcrumb-item"><a href="home.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="courses.html">Courses</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Course Details</li>
+                    </ol>
+                </nav>
+
+            </div>
+        </div>
+
+
+        <section class="course-details section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="course-header box">
+                            <h2 class="text-capitalize">JavaScript for beginners</h2>
+                            <div class="rating">
+                                <span class="average-rating"></span>
+                                <span class="average-stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <span class="reviews">(890 Reviews) </span>
+                            </div>
+                            <ul>
+                                <li>enrolled students - <span>4500</span></li>
+                                <li>created by - <span> <a href="#">Vijay Karande</a></span></li>
+                                <li>last updated - <span>01/02/2024</span></li>
+                                <li>language - <span>english</span></li>
+                            </ul>
+                        </div>
+
+
+
+                        <nav class="course-tabs">
+                            <div class="nav nav-tabs border-0" id="nav-tab" role="tablist">
+                                <button class="nav-link active" id="course-curriculum-tab" data-bs-toggle="tab"
+                                    data-bs-target="#course-curriculum" type="button" role="tab"
+                                    aria-controls="course-curriculum" aria-selected="true">curriculum</button>
+                                <button class="nav-link" id="course-description-tab" data-bs-toggle="tab"
+                                    data-bs-target="#course-description" type="button" role="tab"
+                                    aria-controls="course-description" aria-selected="false">description</button>
+                                <button class="nav-link" id="course-instructor-tab" data-bs-toggle="tab"
+                                    data-bs-target="#course-instructor" type="button" role="tab"
+                                    aria-controls="course-instructor" aria-selected="false">instructor</button>
+                            </div>
+                        </nav>
+
+
+
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade " id="course-curriculum" role="tabpanel"
+                                aria-labelledby="course-curriculum-tab">
+                                <div class="course-curriculum-box">
+                                    <h3 class="text-capitalize mb-4">course curriculum</h3>
+
+                                    <div class="accordion" id="accordion">
+
+
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="heading-1">
+                                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#collapse-1" aria-expanded="true"
+                                                    aria-controls="collapse-1">
+
+                                                    language basics <span>2 lesson | 30min</span>
+                                                </button>
+
+
+                                            </h2>
+                                            <div id="collapse-1" class="accordion-collapse collapse show"
+                                                aria-labelledby="heading-1" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li>
+                                                            Laxical structure
+                                                            <i class="fas fa-play-circle"></i>
+                                                            <span>08:00</span>
+                                                        </li>
+                                                        <li>
+                                                            Datatypes
+                                                            <i class="fas fa-play-circle"></i>
+                                                            <span>08:00</span>
+                                                        </li>
+                                                        <li>
+                                                            Oprators
+                                                            <i class="fas fa-play-circle"></i>
+                                                            <span>08:00</span>
+                                                        </li>
+                                                        <li>
+                                                            Variables
+                                                            <i class="fas fa-play-circle"></i>
+                                                            <span>08:00</span>
+                                                        </li>
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="heading-2">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapse-2"
+                                                    aria-expanded="false" aria-controls="collapse-2">
+
+                                                    Types <span>2 lesson | 30min</span>
+
+                                                </button>
+
+
+                                            </h2>
+                                            <div id="collapse-2" class="accordion-collapse collapse false"
+                                                aria-labelledby="heading-2" data-bs-parent="#accordion">
+                                                <div class="accordion-body">
+                                                    <ul>
+
+                                                        <li>
+
+                                                            Strings
+                                                            <i class="fas fa-play-circle"></i>
+                                                            <span>08:00</span>
+                                                        </li>
+
+                                                        <li>
+                                                            Type Casting
+                                                            <i class="fas fa-play-circle"></i>
+                                                            <span>08:00</span>
+                                                        </li>
+
+                                                        <li>
+                                                            Decsion-Making statements
+                                                            <i class="fas fa-play-circle"></i>
+                                                            <span>08:00</span>
+                                                        </li>
+
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="heading-3">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapse-3"
+                                                    aria-expanded="false" aria-controls="collapse-3">
+
+                                                    Function <span>2 lesson | 30min</span>
+
+                                                </button>
+
+
+                                            </h2>
+                                            <div id="collapse-3" class="accordion-collapse collapse false"
+                                                aria-labelledby="heading-3" data-bs-parent="#accordion">
+                                                <div class="accordion-body">
+                                                    <ul>
+
+                                                        <li>
+
+                                                            if-else statements
+                                                            <i class="fas fa-play-circle"></i>
+                                                            <span>08:00</span>
+                                                        </li>
+
+                                                        <li>
+                                                            Switch-case statemets
+                                                            <i class="fas fa-play-circle"></i>
+                                                            <span>08:00</span>
+                                                        </li>
+
+                                                        <li>
+                                                            Decsion-Making statements
+                                                            <i class="fas fa-play-circle"></i>
+                                                            <span>08:00</span>
+                                                        </li>
+
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade " id="course-description" role="tabpanel"
+                                aria-labelledby="course-description-tab">
+                                <div class="course-description box">
+                                    <h3 class="text-capitalize mb-4">description</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit est cumque
+                                        ducimus perspiciatis, similique veritatis vero reiciendis beatae consequuntur,
+                                        nobis, doloribus aperiam? Consequuntur assumenda numquam libero cupiditate?</p>
+
+                                    <h4>Fow who is this course designed ?</h4>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam quibusdam ex
+                                        eveniet corporis et placeat. Ad debitis eligendi doloremque hic nemo alias,
+                                        ratione expedita, deserunt consequatur vero blanditiis saepe fuga dignissimos
+                                        velit! Doloribus, maxime qui.</p>
+                                    <h4>Why should you take this course ?</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nam numquam,
+                                        architecto accusamus illum non tempora! Ut incidunt earum ipsa saepe id nemo hic
+                                        sit?</p>
+
+                                </div>
+                            </div>
+                            <div class="tab-pane fade show active" id="course-instructor" role="tabpanel"
+                                aria-labelledby="course-instructor-tab">
+                                <div class="course-instructor box">
+                                    <h3 class="mb-3 text-capitalize">instructor</h3>
+                                    <div class="instructor-details">
+                                        <div class="details-wrap d-flex align-items-center flex-wrap">
+                                            <div class="left-box bg-info">
+                                                <div class="img-box"></div>
+                                                <!-- <img src="" alt="instructor img"> -->
+                                            </div>
+                                            <div class="right-box ">
+                                                <h4>Vijay Karande <span>Fullstack developer</span></h4>
+                                                <ul>
+                                                    <li><i class="fas fa-star"></i>4.5 Rating</li>
+                                                    <li><i class="fas fa-play-circle">9 Courses</i></li>
+                                                    <li><i>
+                                                            <div class="fas fa-certificate"></div>4560 Reviews
+                                                        </i></li>
+                                                </ul>
+
+                                            </div>
+                                        </div>
+                                        <div class="text">
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur quas
+                                                ullam debitis provident. Eum saepe quos, excepturi veniam reiciendis
+                                                non, quisquam accusamus obcaecati corrupti natus corporis quasi dolorem
+                                                deserunt sit possimus ratione eligendi dicta architecto?</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="course-sidebar box">
+                            <div class="img-box">
+                                <img src="img/Course3JS.png" class="w-100" alt="course img">
+                                <div class="play-icon">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                                <p class="text-center">Curse Preview</p>
+                            </div>
+                            <div class="price d-flex align-items-center mb-3">
+                                <span class="price-old">Rs. 9999</span>
+                                <span class="price-new">Rs. 1899</span>
+                                <span class="price-discount">70% Off</span>
+                            </div>
+                            <h3 class="mb-3">Course Features</h3>
+                            <ul class="feature-list">
+                                <li>Total 29 lesson</li>
+                                <li>Other features </li>
+                                <li>Easy to understand</li>
+                                <li>Learnt for experts</li>
+                            </ul>
+                            <div class="btn-wrap">
+                                <button type="button" class="btn btn-theme btn-block">Enroll Now</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <footer class="footer">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="footer-item">
+                                <h3 class="footer-logo"><span>Edu</span>Emp</h3>
+                                <ul>
+                                    <li class="menu-item"><a href="home.html">Home</a></li>
+                                    <li class="menu-item"><a href="courses.html">Courses</a></li>
+                                    <li class="menu-item"><a href="course-details.html">Course Details</a></li>
+                                    <li class="menu-item"><a href="contact.html">Contact</a></li>
+                                    <li class="menu-item"><a href="about.html">About</a></li>
+                                    <li class="menu-item"><a href="review.html">Review</a></li>
+                                    <li class="menu-item"><a href="blog.html">Blog</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="footer-item">
+                                <h3>Learning</h3>
+                                <ul>
+                                    <li><a href="#">Get th app</a></li>
+                                    <li><a href="#">Testimonials</a></li>
+                                    <li><a href="#">Pricing</a></li>
+                                    <li><a href="#">Faq.</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="footer-item">
+                                <h3>More</h3>
+                                <ul>
+                                    <li><a href="#">Become a course creater</a></li>
+                                    <li><a href="#">Training webinars</a></li>
+                                    <li><a href="#">Free test</a></li>
+                                    <li><a href="#">Help ans support</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="footer-item">
+                                <h3>Get in touch</h3>
+                                <ul>
+                                    <li><a href="https://www.twitter.com"><i class="fab fa-twitter social-icon"></i> twitter</a></li>
+                                    <li><a href="https://www.instagram.com"><i class="fab fa-instagram social-icon"></i> instagram</a></li>
+                                    <li><a href="https://www.linkedin.com"><i class="fab fa-linkedin social-icon"></i> linkedin</a></li>
+                                    <li><a href="https://www.youtube.com"><i class="fab fa-youtube social-icon"></i> youtube</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <p class="m-0 py-4 text-center">Copyright &copy;2024 The Vijay Karande</p>
+                </div>
+            </div>
+        </footer>
+
+
+    </div>
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

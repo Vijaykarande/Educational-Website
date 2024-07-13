@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/font-awsome.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <title>Courses</title>
+</head>
+
+<body>
+
+    <div class="main-wrapper">
+
+        <header class="header ">
+            <div class="container">
+                <div class="header-main d-flex justify-content-between align-items-center">
+                    <div class="header-logo">
+                        <a href="home.html"><span>Edu</span>Emp</a>
+                    </div>
+                    <button type="button" class="header-hamburger-btn js-header-menu-toggler">
+                        <span></span>
+                    </button>
+                    <div class="header-backdrop js-header-backdrop"></div>
+                    <nav class="header-menu js-header-menu">
+                        <button type="button" class="header-close-btn js-header-menu-toggler">
+                            <i class="fas fa-times"></i>
+
+                        </button>
+                        <ul class="menu">
+                            <li class="menu-item"><a href="home.html">Home</a></li>
+                            <li class="menu-item menu-item-has-children">
+                                <a href="#" class="js-toggle-sub-menu">Courses <i class="fas fa-chevron-down"></i></a>
+                                <ul class="sub-menu js-sub-menu">
+                                    <li class="sub-menu-item"><a href="courses.html">courses</a></li>
+                                    <li class="sub-menu-item"><a href="course-details.html">course details</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item menu-item-has-children">
+                                <a href="#" class="js-header-menu-toggler">New User <i class="fas fa-chevron-down"></i></a>
+                                <ul class="sub-menu js-sub-menu">
+                                    <li class="sub-menu-item"><a href="log-in.html">Log In</a></li>
+                                    <li class="sub-menu-item"><a href="sign-up.html">Sign Up</a></li>
+
+                                </ul>
+                            </li>
+                            
+                        <li class="menu-item"><a href="contact.html">Contact</a></li>
+                        <li class="menu-item"><a href="about.html">About</a></li>
+                        <li class="menu-item"><a href="review.html">Review</a></li>
+                        <li class="menu-item"><a href="blog.html">Blog</a></li>
+                    </ul>
+                    </nav>
+
+                </div>
+
+            </div>
+
+        </header>
+
+
+        <div class="breadcrumb-nav">
+            <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb mb-0">
+                        <li class="breadcrumb-item"><a href="home.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Courses</li>
+                    </ol>
+                </nav>
+
+            </div>
+        </div>
+
+
+
+        <section class="courses-section section-padding">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <div class="section-title text-center mb-4 ">
+                            <h2 class="title">Our courses</h2>
+                            <p class="sub-title">Find the right course for your carrier growth</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <nav>
+                            <div class="nav nav-tabs border-0 justify-content-center mb-4" id="nav-tab" role="tablist">
+                                <button class="nav-link active" id="web-development-tab" data-bs-toggle="tab"
+                                    data-bs-target="#web-development" type="button" role="tab"
+                                    aria-controls="web-development" aria-selected="true">web development</button>
+                                <button class="nav-link" id="java-development-tab" data-bs-toggle="tab"
+                                    data-bs-target="#java-development" type="button" role="tab"
+                                    aria-controls="java-development" aria-selected="false">Java Development</button>
+                                <!-- <button class="nav-link" id="sql-development-tab" data-bs-toggle="tab"
+                                    data-bs-target="#sql-development" type="button" role="tab"
+                                    aria-controls="sql-development" aria-selected="false">sql
+                                    evelopment</button> -->
+                            </div>
+                        </nav>
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="web-development" role="tabpanel"
+                                aria-labelledby="web-development-tab">
+                                <div class="row">
+
+                                    <div class="row">
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="courses-item">
+                                                <a href="course-details.html" class="link">
+                                                    <div class="courses-item-inner">
+                                                        <div class="img-box">
+                                                            <img src="img/Course1HTML.jpg" alt="course img">
+                                                        </div>
+                                                        <h3 class="title">Html for beginners</h3>
+                                                        <div class="instructor">
+                                                            <img src="img/trainer1.1.jpg" alt="">
+                                                            <span class="instructor-name">Vijay Karande</span>
+                                                        </div>
+                                                        <div class="rating">
+                                                            <span class="average-rating">(4.5)</span>
+                                                            <span class="average-stars">
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star-half-alt"></i>
+
+
+                                                            </span>
+                                                            <span class="reviews">(367)</span>
+                                                        </div>
+
+                                                        <div class="price">Rs.789</div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="courses-item">
+                                                <a href="course-details.html" class="link">
+                                                    <div class="courses-item-inner">
+                                                        <div class="img-box">
+                                                            <img src="img/Course2CSS.jpg" alt="course img">
+                                                        </div>
+                                                        <h3 class="title">CSS for beginners</h3>
+                                                        <div class="instructor">
+                                                            <img src="img/trainer2.jpg" alt="course img">
+                                                            <span class="instructor-name">Prajakta Patkulkar</span>
+                                                        </div>
+                                                        <div class="rating">
+                                                            <span class="average-rating">(5.0)</span>
+                                                            <span class="average-stars">
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+
+
+                                                            </span>
+                                                            <span class="reviews">(649)</span>
+                                                        </div>
+
+                                                        <div class="price">Rs.899</div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="courses-item">
+                                                <a href="course-details.html" class="link">
+                                                    <div class="courses-item-inner">
+                                                        <div class="img-box">
+                                                            <img src="img/Course3JS.png" alt="course img">
+                                                        </div>
+                                                        <h3 class="title">JavaScript for beginners</h3>
+                                                        <div class="instructor">
+                                                            <img src="img/trainer1.1.jpg" alt="">
+                                                            <span class="instructor-name">Vijay Karande</span>
+                                                        </div>
+                                                        <div class="rating">
+                                                            <span class="average-rating">(5.0))</span>
+                                                            <span class="average-stars">
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+
+
+                                                            </span>
+                                                            <span class="reviews">(1067)</span>
+                                                        </div>
+
+                                                        <div class="price">Rs.1899</div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="courses-item">
+                                                <a href="course-details.html" class="link">
+                                                    <div class="courses-item-inner">
+                                                        <div class="img-box">
+                                                            <img src="img/Course4Bootstrap.jpg" alt="course img">
+                                                        </div>
+                                                        <h3 class="title">Boostrap for beginners</h3>
+                                                        <div class="instructor">
+                                                            <img src="img/trainer3.jpg" alt="">
+                                                            <span class="instructor-name">Shubham Deshmukh</span>
+                                                        </div>
+                                                        <div class="rating">
+                                                            <span class="average-rating">(4.0)</span>
+                                                            <span class="average-stars">
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+
+
+
+                                                            </span>
+                                                            <span class="reviews">(789)</span>
+                                                        </div>
+
+                                                        <div class="price">Rs.1499</div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                                <div class="tab-pane fade show active" id="java-development" role="tabpanel"
+                                aria-labelledby="java-development-tab">
+                                <div class="row justify-content-center">
+
+                                    <div class="col-md-6 col-lg-3">
+                                        <div class="courses-item">
+                                            <a href="course-details.html" class="link">
+                                                <div class="courses-item-inner">
+                                                    <div class="img-box">
+                                                        <img src="img/java prog.jpg" alt="course img">
+                                                    </div>
+                                                    <h3 class="title">Java for beginners</h3>
+                                                    <div class="instructor">
+                                                        <img src="img/trainer3.jpg" alt="">
+                                                        <span class="instructor-name">Sanjay Karande</span>
+                                                    </div>
+                                                    <div class="rating">
+                                                        <span class="average-rating">(4.0)</span>
+                                                        <span class="average-stars">
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+
+
+
+                                                        </span>
+                                                        <span class="reviews">(789)</span>
+                                                    </div>
+
+                                                    <div class="price">Rs.1499</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                           
+
+                           </div> 
+                           </div>
+                           <div class="tab-pane fade show active" id="sql-development" role="tabpanel"
+                           aria-labelledby="sql-development-tab">
+                           <div class="row justify-content-center">
+                        </div>
+                    </div>
+                </div>
+            </div>
+                        <div class="row">
+                            <div class="col-12 mt-3">
+                                <nav aria-label="Page navigation">
+                                    <ul class="pagination justify-content-center">
+                                      <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Previous">
+                                          <i class="fas fa-chevron-left"></i>
+                                        </a>
+                                      </li>
+                                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                      <li class="page-item active"><a class="page-link" href="#">3</a></li>
+                                      <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                      <li class="page-item disabled"><a class="page-link" href="#">.....</a></li>
+                                      <li class="page-item"><a class="page-link" href="#">101</a></li>
+                                      <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Next">
+                                            <i class="fas fa-chevron-right"></i>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                  </nav>
+                            </div>
+                            
+                        </div>
+                    </div>
+        </section>
+
+
+        <footer class="footer">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="footer-item">
+                                <h3 class="footer-logo"><span>Edu</span>Emp</h3>
+                                <ul>
+                                    <li class="menu-item"><a href="home.html">Home</a></li>
+                                    <li class="menu-item"><a href="courses.html">Courses</a></li>
+                                    <li class="menu-item"><a href="course-details.html">Course Details</a></li>
+                                    <li class="menu-item"><a href="contact.html">Contact</a></li>
+                                    <li class="menu-item"><a href="about.html">About</a></li>
+                                    <li class="menu-item"><a href="review.html">Review</a></li>
+                                    <li class="menu-item"><a href="blog.html">Blog</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="footer-item">
+                                <h3>Learning</h3>
+                                <ul>
+                                    <li><a href="#">Get th app</a></li>
+                                    <li><a href="#">Testimonials</a></li>
+                                    <li><a href="#">Pricing</a></li>
+                                    <li><a href="#">Faq.</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="footer-item">
+                                <h3>More</h3>
+                                <ul>
+                                    <li><a href="#">Become a course creater</a></li>
+                                    <li><a href="#">Training webinars</a></li>
+                                    <li><a href="#">Free test</a></li>
+                                    <li><a href="#">Help ans support</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="footer-item">
+                                <h3>Get in touch</h3>
+                                <ul>
+                                    <li><a href="https://www.twitter.com"><i class="fab fa-twitter social-icon"></i> twitter</a></li>
+                                    <li><a href="https://www.instagram.com"><i class="fab fa-instagram social-icon"></i> instagram</a></li>
+                                    <li><a href="https://www.linkedin.com"><i class="fab fa-linkedin social-icon"></i> linkedin</a></li>
+                                    <li><a href="https://www.youtube.com"><i class="fab fa-youtube social-icon"></i> youtube</a></li>
+
+ 
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <p class="m-0 py-4 text-center">Copyright &copy;2024 The Vijay Karande</p>
+                </div>
+            </div>
+        </footer>
+
+
+    </div>
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
